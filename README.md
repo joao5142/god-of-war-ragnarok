@@ -26,10 +26,9 @@
 <h2>🖼️ Demonstração da aplicação</h2>
 <img margin-bottom="20px" src="/public/assets/readme/1.png">
 <hr/>
-<img margin-bottom="20px" src="/public/assetsassets/readme/2.png">
+<img margin-bottom="20px" src="/public/assets/readme/2.png">
 <hr/>
-<img margin-bottom="20px" src="/public/assetsassets/readme/3.png">
-
+<img margin-bottom="20px" src="/public/assets/readme/3.png">
 
 <h4  style="display: inline_block">Visualização do site :</h4><a style="display: inline_block" target="blank" href="">Preview na Vercel</a>
 
