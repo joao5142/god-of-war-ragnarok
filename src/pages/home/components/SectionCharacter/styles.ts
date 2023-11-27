@@ -1,3 +1,4 @@
+import Text from '@/components/ui/Text'
 import { styled } from '@/styles/theme'
 
 export const SectionCharacter = styled('section', {
@@ -35,8 +36,17 @@ export const LogoImage = styled('img', {
 export const ReleaseData = styled('div', {
   display: 'flex',
   flexDirection: 'column',
-  alignItems: 'center',
-  gap: '20',
+  alignItems: 'start',
+
+  gap: 17,
+
+  [`& span`]: {
+    fontWeight: 500,
+    fontSize: '$md',
+    lineHeight: 1.4,
+
+    marginLeft: '0.5rem',
+  },
 
   '@media(max-width:440px)': {
     display: 'none',

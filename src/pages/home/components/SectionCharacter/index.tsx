@@ -102,8 +102,9 @@ export default function SectionCharacter() {
             <AxImage src={'/assets/img/machado.png'} />
             <ReleaseData>
               <LogoImage src={'/assets/img/logo.png'} alt="santa monica logo" />
-              <Text as="span" align="center">
-                Lançamento dia 09/11/2022{' '}
+              <Text as="span" align="start">
+                Lançamento dia <br />
+                <strong> 09/11/2022</strong>
               </Text>
             </ReleaseData>
           </Flex>
